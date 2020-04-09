@@ -18,3 +18,5 @@ logging:
     com:
       springboot:
         dao=debug:
+env:
+  test1
