@@ -1,0 +1,8 @@
+zuul:
+  routes:
+#    myServer:   #这个名称随便取，这个是route名称
+#      path: /myServer/**   #把/myServer/**  映射到server/**
+#      serviceId: server    #要映射的服务名字
+    server: /myServer/**    #这是代替上面的一个简介写法
+#  ignored-patterns:     #让这个接口不对外访问
+#    - /**/api
